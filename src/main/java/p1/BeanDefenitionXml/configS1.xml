@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    <bean name="beanOne" class="p1.BeanDefenitionXml.BeanOneS1" />-->
+<!--    if default constructor isn't exist we must pass arg of constructor -->
+<!--    there are two-way to pass arg to constructor or setter by tag and nameSpace c: p:-->
+<!--                    first way by tag and attribute  pass arg to constructor             -->
+    <!-- if we want to add prop value we must have getter and setter-->
+    <bean name="beanOne1" class="p1.BeanDefenitionXml.BeanOneS1">
+<!--        <constructor-arg name="name" value="ali"/>-->
+<!--        <constructor-arg name="name">-->
+<!--            <value>name</value>-->
+<!--        </constructor-arg>-->
+        <property name="name" value="nahid"></property>
+
+    </bean>
+    <!-- second way use nameSpace for pass arg to Bean constructor-->
+
+    <bean name="beanOneS1" class="p1.BeanDefenitionXml.BeanOneS1" c:name="ali" />
+
+</beans>
