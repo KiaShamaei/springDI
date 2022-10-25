@@ -3,6 +3,9 @@ package p6.diWithXml;
 public class MeService {
     MyRepository repository ;
 
+    public MeService() {
+    }
+
     public MeService(MyRepository repository) {
         this.repository = repository;
     }

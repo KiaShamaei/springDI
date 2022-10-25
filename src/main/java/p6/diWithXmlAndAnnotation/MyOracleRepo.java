@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component("oracle")
-//@Primary
+@Primary
 
 public class MyOracleRepo implements MyRepository {
     @Override

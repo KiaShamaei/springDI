@@ -6,5 +6,16 @@
 
     <bean class="p6.diWithXml.MyOracleRepo" name="oracle" />
     <bean class="p6.diWithXml.MySqlRepo" name="mySqlRepo" />
-    <bean class="p6.diWithXml.MeService" c:_0-ref="oracle" name="meService" />
+    <!-- there are two way for di with nameSpace and tag -->
+<!--    <bean class="p6.diWithXml.MeService" c:_0-ref="oracle" name="meService" />-->
+<!--    <bean class="p6.diWithXml.MeService" name="meService" >-->
+<!--        <constructor-arg name="repository"  >-->
+<!--            <ref bean="oracle"></ref>-->
+<!--        </constructor-arg>-->
+<!--    </bean>-->
+    <bean class="p6.diWithXml.MeService" name="meService">
+        <property name="repository">
+            <ref bean="oracle"></ref>
+        </property>
+    </bean>
 </beans>

@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7757649e-cf6f-468a-94e9-ecefaeacc25d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/p6/diWithJsr/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p6/diWithJsr/MeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p6/diWithJsr/MyOracleRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p6/diWithJsr/MyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p6/diWithJsr/MySqlRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p6/diWithJsr/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p6/diWithXMLsetter/MeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p6/diWithXMLsetter/MyOracleRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p6/diWithXMLsetter/MyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p6/diWithXMLsetter/MySqlRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p6/diWithXMLsetter/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p6/diWithXMLsetter/config.xml" afterDir="false" />
+    <list default="true" id="7757649e-cf6f-468a-94e9-ecefaeacc25d" name="Changes" comment="add jsr-330 to project used this annotation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/p1/BeanDefenitionXml/configS1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/p1/BeanDefenitionXml/configS1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/p4/BeanDefinitionProgramatically/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/p4/BeanDefinitionProgramatically/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/p6/diWithXml/MeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/p6/diWithXml/MeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/p6/diWithXml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/p6/diWithXml/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/p6/diWithXmlAndAnnotation/MyOracleRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/p6/diWithXmlAndAnnotation/MyOracleRepo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,19 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/springClass/beanDefinition/src/main/java/p6/diWithJsr",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "492657d513fa66ae870469e1867d5292"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/springClass/beanDefinition/src/main/java/p6/diWithJsr&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;492657d513fa66ae870469e1867d5292&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\springClass\beanDefinition\src\main\java\p6\diWithJsr" />
@@ -68,13 +60,13 @@
       <recent name="D:\springClass\beanDefinition\src\main\java\p3\BeanDefinitionAnnotation\componentScan" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.p6.diWithJsr.Test">
+  <component name="RunManager" selected="Application.p6.diWithXml.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p6.diWithXml.Test" />
+      <option name="MAIN_CLASS_NAME" value="p4.BeanDefinitionProgramatically.Test" />
       <module name="beanDefinition" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p6.diWithXml.*" />
+          <option name="PATTERN" value="p4.BeanDefinitionProgramatically.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p6.diWithClasspath.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p6.diWithClasspath.Test" />
+    <configuration name="p2.BeanDefinitionClassPath.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p2.BeanDefinitionClassPath.Test" />
       <module name="beanDefinition" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p6.diWithClasspath.*" />
+          <option name="PATTERN" value="p2.BeanDefinitionClassPath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,19 +100,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p6.diWithXMLsetter.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p6.diWithXMLsetter.Test" />
-      <module name="beanDefinition" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p6.diWithXMLsetter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="p6.diWithXmlAndAnnotation.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="p6.diWithXmlAndAnnotation.Test" />
       <module name="beanDefinition" />
@@ -134,13 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="p6.diWithXml.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p6.diWithXml.Test" />
+      <module name="beanDefinition" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p6.diWithXml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.p6.diWithJsr.Test" />
-        <item itemvalue="Application.p6.diWithXMLsetter.Test" />
-        <item itemvalue="Application.p6.diWithClasspath.Test" />
-        <item itemvalue="Application.p6.diWithXmlAndAnnotation.Test" />
+        <item itemvalue="Application.p6.diWithXml.Test" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.p2.BeanDefinitionClassPath.Test" />
+        <item itemvalue="Application.p6.diWithXmlAndAnnotation.Test" />
+        <item itemvalue="Application.p6.diWithJsr.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -154,8 +146,17 @@
       <updated>1666245343621</updated>
       <workItem from="1666245345841" duration="16313000" />
       <workItem from="1666328416424" duration="2373000" />
-      <workItem from="1666357672672" duration="2196000" />
+      <workItem from="1666357672672" duration="2408000" />
+      <workItem from="1666671406410" duration="4769000" />
     </task>
+    <task id="LOCAL-00001" summary="add jsr-330 to project used this annotation">
+      <created>1666360162013</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666360162013</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,5 +184,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add jsr-330 to project used this annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add jsr-330 to project used this annotation" />
   </component>
 </project>
