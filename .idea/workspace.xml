@@ -5,12 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7757649e-cf6f-468a-94e9-ecefaeacc25d" name="Changes" comment="add jsr-330 to project used this annotation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p01/jsr250/BeanOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p01/jsr250/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p01/jsr250/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p01/jsr250/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p01/jsr250/xml/BeanOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p01/jsr250/xml/BeanThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p01/jsr250/xml/BeanTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p01/jsr250/xml/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p01/jsr250/xml/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p02/automaticWiring/BeanOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p02/automaticWiring/BeanThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p02/automaticWiring/BeanTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p02/automaticWiring/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p02/automaticWiring/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p02/automaticWiring/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p02/innerBean/BeanOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p02/innerBean/BeanThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p02/innerBean/BeanTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p02/innerBean/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p02/innerBean/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p03/dependOn/BeanOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p03/dependOn/BeanThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p03/dependOn/BeanTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p03/dependOn/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p03/dependOn/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p03/dependsOn/classPath/BeanOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p03/dependsOn/classPath/BeanThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p03/dependsOn/classPath/BeanTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p03/dependsOn/classPath/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p03/dependsOn/classPath/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p04/importConfig/BeanOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p04/importConfig/BeanThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p04/importConfig/BeanTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p04/importConfig/ConfigChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p04/importConfig/ConfigParent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p04/importConfig/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p04/importConfig/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p05/customizeComponentScan/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p05/customizeComponentScan/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p05/customizeComponentScan/MyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p05/customizeComponentScan/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p06/customizeQualifier/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p06/customizeQualifier/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p06/customizeQualifier/DataBaseType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p06/customizeQualifier/MyDaoMongo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p06/customizeQualifier/MyDaoSql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p06/customizeQualifier/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p06/customizeQualifier/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p07/datasource/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p07/datasource/TestDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p07/datasource/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p07/datasource/datasource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p07/datasource/withAnnotation/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p07/datasource/withAnnotation/TestClassDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p07/datasource/withAnnotation/datasource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p08/injectPropertiseClassXml/BeanWithInjcetProp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p08/injectPropertiseClassXml/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p08/injectPropertiseClassXml/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p09/injectPropClass/BeanOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p09/injectPropClass/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p09/injectPropClass/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p09/injectPropClass/data.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/p1/BeanDefenitionXml/configS1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/p1/BeanDefenitionXml/configS1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/p4/BeanDefinitionProgramatically/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/p4/BeanDefinitionProgramatically/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/p6/diWithXml/MeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/p6/diWithXml/MeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/p6/diWithXml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/p6/diWithXml/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/p6/diWithXmlAndAnnotation/MyOracleRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/p6/diWithXmlAndAnnotation/MyOracleRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/p6/diWithXmlAndAnnotation/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/p6/diWithXmlAndAnnotation/config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +79,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Class" />
@@ -38,35 +98,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/springClass/beanDefinition/src/main/java/p6/diWithJsr&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;492657d513fa66ae870469e1867d5292&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/springClass/beanDefinition/src/main/java/s5/p07/datasource",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "492657d513fa66ae870469e1867d5292"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\springClass\beanDefinition\src\main\java\p6\diWithJsr" />
-      <recent name="D:\springClass\beanDefinition\src\main\java\p6\diWithXMLsetter" />
-      <recent name="D:\springClass\beanDefinition\src\main\java\p6\diWithClasspath" />
-      <recent name="D:\springClass\beanDefinition\src\main\java\p6\diWithXmlAndAnnotation" />
-      <recent name="D:\springClass\beanDefinition\src\main\java\p3\BeanDefinitionAnnotation\componentScan" />
+      <recent name="D:\springClass\beanDefinition\src\main\java\s5\p07\datasource" />
+      <recent name="D:\springClass\beanDefinition\src\main\java\s5\p04\importConfig" />
+      <recent name="D:\springClass\beanDefinition\src\main\java\s5\p03\dependOn" />
+      <recent name="D:\springClass\beanDefinition\src\main\java\s5\p03\dependsOn\classPath" />
+      <recent name="D:\springClass\beanDefinition\src\main\java\s5\p03\dependOn\xml" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\springClass\beanDefinition\src\main\java\s5\p07\datasource\withAnnotation" />
+      <recent name="D:\springClass\beanDefinition\src\main\java\s5\p07\datasource" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="s5.p07.datasource.withAnnotation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.p6.diWithXml.Test">
+  <component name="RunManager" selected="Application.TestClassDataSource">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p4.BeanDefinitionProgramatically.Test" />
+      <option name="MAIN_CLASS_NAME" value="s5.p07.datasource.Test" />
       <module name="beanDefinition" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p4.BeanDefinitionProgramatically.*" />
+          <option name="PATTERN" value="s5.p07.datasource.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p2.BeanDefinitionClassPath.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p2.BeanDefinitionClassPath.Test" />
+    <configuration name="TestClassDataSource" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="s5.p07.datasource.withAnnotation.TestClassDataSource" />
       <module name="beanDefinition" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p2.BeanDefinitionClassPath.*" />
+          <option name="PATTERN" value="s5.p07.datasource.withAnnotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p6.diWithJsr.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p6.diWithJsr.Test" />
+    <configuration name="s5.p06.customizeQualifier.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="s5.p06.customizeQualifier.Test" />
       <module name="beanDefinition" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p6.diWithJsr.*" />
+          <option name="PATTERN" value="s5.p06.customizeQualifier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p6.diWithXmlAndAnnotation.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p6.diWithXmlAndAnnotation.Test" />
+    <configuration name="s5.p08.injectPropertiseClassXml.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="s5.p08.injectPropertiseClassXml.Test" />
       <module name="beanDefinition" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p6.diWithXmlAndAnnotation.*" />
+          <option name="PATTERN" value="s5.p08.injectPropertiseClassXml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p6.diWithXml.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p6.diWithXml.Test" />
+    <configuration name="s5.p09.injectPropClass.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="s5.p09.injectPropClass.Test" />
       <module name="beanDefinition" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p6.diWithXml.*" />
+          <option name="PATTERN" value="s5.p09.injectPropClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.p6.diWithXml.Test" />
+        <item itemvalue="Application.TestClassDataSource" />
+        <item itemvalue="Application.s5.p09.injectPropClass.Test" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.p2.BeanDefinitionClassPath.Test" />
-        <item itemvalue="Application.p6.diWithXmlAndAnnotation.Test" />
-        <item itemvalue="Application.p6.diWithJsr.Test" />
+        <item itemvalue="Application.s5.p08.injectPropertiseClassXml.Test" />
+        <item itemvalue="Application.s5.p06.customizeQualifier.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +214,14 @@
       <workItem from="1666245345841" duration="16313000" />
       <workItem from="1666328416424" duration="2373000" />
       <workItem from="1666357672672" duration="2408000" />
-      <workItem from="1666671406410" duration="4769000" />
+      <workItem from="1666671406410" duration="4827000" />
+      <workItem from="1666715732273" duration="1717000" />
+      <workItem from="1666755881533" duration="3150000" />
+      <workItem from="1666799421616" duration="5363000" />
+      <workItem from="1666843607599" duration="8022000" />
+      <workItem from="1666936630856" duration="1433000" />
+      <workItem from="1666959764072" duration="5253000" />
+      <workItem from="1667017905008" duration="2591000" />
     </task>
     <task id="LOCAL-00001" summary="add jsr-330 to project used this annotation">
       <created>1666360162013</created>
@@ -156,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666360162013</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add jsr-330 to project used this annotation">
+      <created>1666676335287</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666676335287</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

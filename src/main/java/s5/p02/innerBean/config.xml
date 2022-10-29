@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="beanTwo" class="s5.p02.innerBean.BeanTwo" />
+    <bean name="beanThree" class="s5.p02.innerBean.BeanThree">
+        <property name="name">
+            <value>this is compeletly same as idref value </value>
+<!--            <idref bean="beanTwo" />-->
+        </property>
+    </bean>
+    <bean class="s5.p02.innerBean.BeanOne" name="beanOne">
+        <property name="beanTwo">
+            <bean name="beanTwo" class="s5.p02.innerBean.BeanTwo"/>
+        </property>
+    </bean>
+</beans>
