@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7757649e-cf6f-468a-94e9-ecefaeacc25d" name="Changes" comment="add inject properties to bean">
-      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p10/collections/CollectionImportXml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p10/collections/CollectionImportXmlUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p10/collections/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p10/collections/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/s5/p10/collections/configWithUtil.xml" afterDir="false" />
+    <list default="true" id="7757649e-cf6f-468a-94e9-ecefaeacc25d" name="Changes" comment="add inject collectionWithxml">
+      <change afterPath="$PROJECT_DIR$/src/main/java/p6/diWithClasspath/Config2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/s5/p07/datasource/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/s5/p07/datasource/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/p6/diWithClasspath/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/p6/diWithClasspath/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +19,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,19 +36,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/springClass/beanDefinition/src/main/java/s5/p07/datasource&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;492657d513fa66ae870469e1867d5292&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/springClass/beanDefinition&DI",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "f117b1c90a357d4b4f50b97845b16d55"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\springClass\beanDefinition\src\main\java\s5\p07\datasource" />
@@ -70,7 +66,7 @@
       <recent name="s5.p07.datasource.withAnnotation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.s5.p10.collections.Test">
+  <component name="RunManager" selected="Application.p6.diWithClasspath.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="s5.p07.datasource.Test" />
       <module name="beanDefinition" />
@@ -97,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="s5.p08.injectPropertiseClassXml.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="s5.p08.injectPropertiseClassXml.Test" />
-      <module name="beanDefinition" />
+    <configuration name="p6.diWithClasspath.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p6.diWithClasspath.Test" />
+      <module name="beanDefinition&amp;DI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="s5.p08.injectPropertiseClassXml.*" />
+          <option name="PATTERN" value="p6.diWithClasspath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.p6.diWithClasspath.Test" />
         <item itemvalue="Application.s5.p10.collections.Test" />
         <item itemvalue="Application.TestClassDataSource" />
         <item itemvalue="Application.s5.p09.injectPropClass.Test" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.s5.p08.injectPropertiseClassXml.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +163,10 @@
       <workItem from="1667017905008" duration="2675000" />
       <workItem from="1667104209594" duration="2749000" />
       <workItem from="1667191136458" duration="3193000" />
+      <workItem from="1667360596189" duration="227000" />
+      <workItem from="1667360833165" duration="764000" />
+      <workItem from="1667620062420" duration="329000" />
+      <workItem from="1667620675123" duration="1643000" />
     </task>
     <task id="LOCAL-00001" summary="add jsr-330 to project used this annotation">
       <created>1666360162013</created>
@@ -189,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667020579920</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add inject collectionWithxml">
+      <created>1667360717723</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667360717723</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +228,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add jsr-330 to project used this annotation" />
     <MESSAGE value="add inject properties to bean" />
-    <option name="LAST_COMMIT_MESSAGE" value="add inject properties to bean" />
+    <MESSAGE value="add inject collectionWithxml" />
+    <option name="LAST_COMMIT_MESSAGE" value="add inject collectionWithxml" />
   </component>
 </project>

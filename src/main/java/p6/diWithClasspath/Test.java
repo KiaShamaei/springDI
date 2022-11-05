@@ -5,7 +5,7 @@ import org.springframework.context.support.GenericXmlApplicationContext;
 
 public class Test {
     public static void main(String[] args) {
-        var context = new AnnotationConfigApplicationContext(Config.class);
+        var context = new AnnotationConfigApplicationContext(Config2.class);
         MeService service = (MeService) context.getBean("meService");
         service.getRepository().crete();
     }
